@@ -1,0 +1,90 @@
+
+=== BFS (unweighted shortest path) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== BFS (unweighted shortest path) (marks only) ===
+*+++++#
+*#++++#
+*+++#+#
+*#++#++
+*******
+Path cost: 34, Steps: 11
+
+=== DFS (any path) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== DFS (any path) (marks only) ===
+******#
+.#...*#
+....#*#
+.#..#**
+......*
+Path cost: 27, Steps: 11
+
+=== Dijkstra (weighted) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== Dijkstra (weighted) (marks only) ===
+***+++#
++#*+++#
+++*+#+#
++#*+#..
+.+*****
+Path cost: 22, Steps: 11
+
+=== Greedy Best-First (h only) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== Greedy Best-First (h only) (marks only) ===
+******#
+.#...*#
+....#*#
+.#..#**
+......*
+Path cost: 27, Steps: 11
+
+=== A* (weighted + admissible h) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== A* (weighted + admissible h) (marks only) ===
+***+++#
++#*.+.#
++.*+#.#
+.#*.#..
+..*****
+Path cost: 22, Steps: 11
+
+=== Bellman-Ford (weighted) (original) ===
+S56221#
+0#2413#
+9831#1#
+9#12#51
+911111G
+
+=== Bellman-Ford (weighted) (marks only) ===
+***+++#
++#*+++#
+++*+#+#
++#*+#++
+++*****
+Path cost: 22, Steps: 11
